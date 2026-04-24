@@ -1,0 +1,134 @@
+body{
+        margin: 3% auto;
+        background-color: #e0e0e0;
+    } 
+
+    .contenedor-principal{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        min-height: 100%;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        header{
+        position: fixed;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 4rem;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+        margin: 0 1rem;
+
+    }
+
+        footer{
+        position: fixed;
+        bottom: 0;
+        left: 10%;
+        width: 80%;
+        height: 4rem;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-recetas{
+        max-width: 30rem;
+        margin: 2rem auto;
+        background-color: white;
+        padding: 2rem;
+        border: 0.1rem solid black  ;
+        border-top-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+
+    .contenedor-recetas h1 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: rgb(211, 87, 16);
+    }
+
+        .imagenes{
+        height: 9rem;
+        width: 15rem;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;  
+        border: 0.1rem solid rosybrown;
+        border-radius: 0.5rem;      
+    }
+
+    .formulario-contacto{
+        max-width: 40rem;
+        margin: 2rem auto;
+        background-color: white;
+        padding: 2rem;
+        border: 0.1rem solid rosybrown;
+        border-radius: 0.5rem;
+    }
+
+    .campo{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .campo label{
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+
+    .campo input,
+    .campo textarea{
+        padding: 0.8rem;
+        border: 0.1rem solid #ccc;
+        border-radius: 0.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .botones{
+        display: flex;
+        justify-content: flex-end;
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .botones button{
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 0.5rem;
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .botones button.enviar{
+        background-color: cornflowerblue;
+    }
+
+    .botones button.cancelar{
+        background-color: rosybrown;
+    }
+
+main{
+    padding: 5rem 2rem;
+}

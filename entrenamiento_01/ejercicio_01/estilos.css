@@ -17,7 +17,7 @@ body {
     width: 80%;
     height: 100%;
     display: block;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     box-sizing: border-box;
 }
 
@@ -32,7 +32,7 @@ h1 {
 p {
     color: black;
     font-family: Arial, sans-serif;
-    margin: 0.6rem 0;
+    margin: 0.3rem 0;
     font-size: 1.05rem;
     line-height: 1.6;
 }
@@ -40,7 +40,7 @@ p {
 h2{
     color: black;
     font-family: Arial, sans-serif;
-    margin: 0.8rem 0 0.6rem 0;
+    margin: 0.3rem 0 0.5rem 0;
     font-size: 1.6rem;
     line-height: 1.4;
 }
@@ -48,7 +48,7 @@ h2{
 h3{
     color: black;
     font-family: Arial, sans-serif;
-    margin: 1rem 0 0.5rem 0;
+    margin: 0.3rem 0 0.5rem 0;
     font-size: 1.3rem;
     line-height: 1.4;
 }
@@ -64,9 +64,9 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.1rem;
     margin-top: 0;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .datos-personales h1{
@@ -88,13 +88,12 @@ li{
     justify-content: flex-end;
 }
 
-.foto-perfil{
+.foto-perfil {
     margin-top: 0.5rem;
-    width: 30%;
-    height: auto;
-    max-width: 35%;
+    width: 15rem;
+    height: auto; 
     border-radius: 20%;
-    border: #333 0.15rem solid;
+    border: 0.15rem solid #333;
 }
 
 .imagenes{
